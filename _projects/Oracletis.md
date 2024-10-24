@@ -10,7 +10,6 @@ abstract: >-
   If you are interested in this project and looking for further collaboration, please contact me via email.
 cover: /assets/images/covers/Oracletis.webp
 links:
-  Demo1: /assets/files/token_analyzer_demo.html
-  Demo2: /assets/files/address_analyzer_demo.html
-  Dashboard Glance: /assets/images/etc/dashboard.jpg
+  Demo: /assets/files/combined_demo.html
+
 ---

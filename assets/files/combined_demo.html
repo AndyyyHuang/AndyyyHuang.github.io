@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Combined Page</title>
+  <style>
+    iframe {
+      width: 95%;
+      height: 600px;
+      border: none;
+    }
+    .header-image {
+      width: 95%;
+      max-height: 500px;
+      object-fit: cover; /* Ensures the image covers the area without distortion */
+    }
+  </style>
+</head>
+<body>
+  <h1>Dashboard</h1>
+  <img src="dashboard.jpg" alt="Header Image" class="header-image">
+
+  <h1>Token Analyzer</h1>
+  <iframe src="token_analyzer_demo.html"></iframe>
+
+  <h1>Address Analyzer</h1>
+  <iframe src="address_analyzer_demo.html"></iframe>
+</body>
+</html>
